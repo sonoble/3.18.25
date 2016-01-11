@@ -19,13 +19,13 @@
 # </bsn.cl>
 ############################################################
 #
-# 3.18.25-deb8 Kernel Builds
+# 3.18.25 Kernel Builds
 #
 ############################################################
 THIS_DIR := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
 K_MAJOR_VERSION := 3
 K_PATCH_LEVEL := 18
 K_SUB_LEVEL := 25
-K_SUFFIX := -deb8
+K_SUFFIX :=
 K_PATCH_DIR := $(THIS_DIR)/patches
-K_ARCHIVE_URL := http://opennetlinux.org/tarballs/linux-3.18.25-deb8.tar.xz
+K_ARCHIVE_URL := http://opennetlinux.org/tarballs/linux-3.18.25.tar.xz
